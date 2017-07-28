@@ -111,3 +111,28 @@ i.icon-padding{
   padding-right: 10px;
   box-sizing: border-box;
 }
+a.mysocialp{
+  text-decoration: none;
+  color:#000;
+}
+img.quora-img{
+width: 100%;
+}
+div.quora{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-sizing: border-box;
+  align-items: center;
+  padding:40px;
+}
+@media only screen and (max-width: 700px) {
+    div.quora{
+      flex-direction: column;
+    }
+    img.quora-img{
+    width: 100%;
+    padding-top:20px;
+    box-sizing: border-box;
+    }
+}
